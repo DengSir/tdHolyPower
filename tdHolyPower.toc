@@ -1,0 +1,6 @@
+## Interface: 80000
+## Title: tdHolyPower
+## Author: DengSir
+## Version: 80000.01
+
+Addon.lua
