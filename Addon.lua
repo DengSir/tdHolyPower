@@ -28,7 +28,6 @@ function Addon:OnLoad()
     self:SetScript('OnEvent', self.OnEvent)
 
     self:RegisterUnitEvent('UNIT_POWER_FREQUENT', self.unit)
-    self:RegisterUnitEvent('UNIT_POWER', self.unit)
     self:RegisterEvent('UNIT_DISPLAYPOWER')
     self:UpdatePower()
 end

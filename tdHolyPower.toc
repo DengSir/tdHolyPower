@@ -2,5 +2,7 @@
 ## Title: tdHolyPower
 ## Author: DengSir
 ## Version: 80000.01
+## LoadManagers: AddonLoader
+## X-LoadOn-Class: Paladin
 
 Addon.lua
