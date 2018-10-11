@@ -44,8 +44,6 @@ end
 
 function Addon:UpdatePower()
     local power = UnitPower(self.unit, self.powerType)
-    print(power)
-
     if not self.coords[power] then
         self:Hide()
     else
